@@ -1,0 +1,31 @@
+p:nth-child(even){
+    background-color: chartreuse;
+    font-size: 140%;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin: 2px 2px;
+    padding: 4px 4px;
+    cursor: pointer;
+}
+
+p:nth-child(odd){
+    background-color: rgb(183, 133, 202);
+    font-size: 140%;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin: 2px 2px;
+    padding: 4px 4px;
+    cursor: pointer;
+}
+
+p:hover{
+    background-color: rgb(236, 160, 160);
+    font-weight: bold;
+    color: blanchedalmond;
+}
+
+.container{
+    border: 2px solid black;
+    border-radius: 8px;
+    margin: 35px 250px;
+}
